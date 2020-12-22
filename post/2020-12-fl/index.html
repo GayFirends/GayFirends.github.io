@@ -9,6 +9,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <link rel="stylesheet" href="/media/css/post.css">
     <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
     
 </head>
@@ -44,43 +45,43 @@
     </ul>
 </div>
 
-<div class="mdui-container">
-    <div class="mdui-row">
-        <div class="mdui-col-md-10 mdui-col-offset-md-1 ">
-            
-            
-                <div class="mdui-typo-display-1 mdui-m-b-2 mdui-m-l-1">
-                    <div class="mdui-row">
-                        <div class="mdui-col-xs-12">2020</div>
-                    </div>
-                    <div class="mdui-row">
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://blog.steam-boom.xyz/post-images/2020-12-fl.png"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">[好软推荐]著名音乐编曲软件 FL Studio 20.7下载</div>
-                                            <div class="mdui-card-primary-subtitle">2020-12-22</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://blog.steam-boom.xyz/post/2020-12-fl/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                    </div>
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
+                <header class="entry-header">
+                    <h1 class="entry-title">[好软推荐]著名音乐编曲软件 FL Studio 20.7下载</h1>
+                    <p class="entry-census">发布于 2020-12-22</p>
+                    <hr>
+                </header>
+                <div class="neko">
+                    <h2 id="简介">简介</h2>
+<p>FL Studio (2003年前被称为FruityLoops），是一款由比利时公司Image-Line开发的数位音频工作站。FL Studio能为图形用户界面提供基于乐段(pattern)的音乐音序器。该软件有四个不同版本可供Microsoft Windows和macOS用户使用，包括基础版(Fruity)、进阶版(Producer)、高级版(Signature)和完整版(All Plugins Bundle)。Image-Line为该软件提供终身免费更新服务，这意味着客户在购买一次后即可免费获得该软件的将来的所有更新。Image-Line公司同样开发了用于iPod Touch、iPhone、iPad和Android的移动应用程序FL Studio Mobile。FL Studio 是以乐段(pattern)为基础的编曲软件，意即是使用渐进式编曲机(Step Sequencer)和琴键轴(Piano Roll) 为其创作的方式，并在编辑播放视窗(Playlist window)下将乐段组合成完整曲子。仅不如此，FL Studio 还能输入audio tracks并加入内建效果，如reverb、phaser和flanger等，并透过自动化控制(automation)来加以编辑，可以使所作的乐曲与众不同。</p>
+<h2 id="截图">截图</h2>
+<p><img src="https://blog.steam-boom.xyz/post-images/1608624892459.png" alt="版本信息" loading="lazy">版本<br>
+<img src="https://blog.steam-boom.xyz/post-images/1608624921410.png" alt="软件界面" loading="lazy">软件界面</p>
+<h2 id="下载地址">下载地址</h2>
+<p><a href="https://blog-1251216006.cos.ap-chengdu.myqcloud.com/files/FL%20Studio.zip">单击我下载</a>  Power By 腾讯云</p>
+
                 </div>
-            
+            </article>
+        </main>
+    </div>
+    <div class="doc-footer-nav mdui-color-theme">
+        <div class="mdui-container">
+            <div class="mdui-row">
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
+            </div>
         </div>
     </div>
-    <div class="mdui-row">
-        
-
-    </div>
+    <br>
+    
+    <div class="comment"></div>
 </div>
 <footer class="mdui-container footer ">
     <div class="head_card-offset"></div>
@@ -132,4 +133,23 @@
 
 </body>
 <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    $('.comment').bind('DOMNodeInserted',()=>{
+        $('.comment').unbind()
+
+        $('.vbtn').addClass(' mdui-btn mdui-color-theme-accent mdui-ripple')
+    })
+
+    let valine = new Valine({
+        el: '.comment',
+        
+        
+        
+        path: window.location.pathname,
+        pageSize: 30,
+        avatar:'mm',
+        notify:true
+    })
+</script>
 </html>
