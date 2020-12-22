@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.steam-boom.xyz</id>
     <title>蒸汽波波</title>
-    <updated>2020-12-21T07:48:25.662Z</updated>
+    <updated>2020-12-22T08:23:32.778Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.steam-boom.xyz"/>
     <link rel="self" href="https://blog.steam-boom.xyz/atom.xml"/>
@@ -10,4 +10,19 @@
     <logo>https://blog.steam-boom.xyz/images/avatar.png</logo>
     <icon>https://blog.steam-boom.xyz/favicon.ico</icon>
     <rights>All rights reserved 2020, 蒸汽波波</rights>
+    <entry>
+        <title type="html"><![CDATA[[好软推荐]著名音乐编曲软件 FL Studio 20.7下载]]></title>
+        <id>https://blog.steam-boom.xyz/post/hao-ruan-tui-jian-zhu-ming-yin-le-bian-qu-ruan-jian-fl-studio-207-xia-zai/</id>
+        <link href="https://blog.steam-boom.xyz/post/hao-ruan-tui-jian-zhu-ming-yin-le-bian-qu-ruan-jian-fl-studio-207-xia-zai/">
+        </link>
+        <updated>2020-12-22T08:10:47.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="简介">简介</h2>
+<p>FL Studio (2003年前被称为FruityLoops），是一款由比利时公司Image-Line开发的数位音频工作站。FL Studio能为图形用户界面提供基于乐段(pattern)的音乐音序器。该软件有四个不同版本可供Microsoft Windows和macOS用户使用，包括基础版(Fruity)、进阶版(Producer)、高级版(Signature)和完整版(All Plugins Bundle)。Image-Line为该软件提供终身免费更新服务，这意味着客户在购买一次后即可免费获得该软件的将来的所有更新。Image-Line公司同样开发了用于iPod Touch、iPhone、iPad和Android的移动应用程序FL Studio Mobile。FL Studio 是以乐段(pattern)为基础的编曲软件，意即是使用渐进式编曲机(Step Sequencer)和琴键轴(Piano Roll) 为其创作的方式，并在编辑播放视窗(Playlist window)下将乐段组合成完整曲子。仅不如此，FL Studio 还能输入audio tracks并加入内建效果，如reverb、phaser和flanger等，并透过自动化控制(automation)来加以编辑，可以使所作的乐曲与众不同。</p>
+<h2 id="截图">截图</h2>
+<p><img src="https://blog.steam-boom.xyz/post-images/1608624892459.png" alt="版本信息" loading="lazy">版本<br>
+<img src="https://blog.steam-boom.xyz/post-images/1608624921410.png" alt="软件界面" loading="lazy">软件界面</p>
+<h2 id="下载地址">下载地址</h2>
+<p><a href="https://blog.steam-boom.xyz/media/files/2020-12/fl.zip">单击我下载</a>  Power By Github</p>
+]]></content>
+    </entry>
 </feed>
