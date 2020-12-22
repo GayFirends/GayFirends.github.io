@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.steam-boom.xyz</id>
     <title>蒸汽波波</title>
-    <updated>2020-12-22T08:23:32.778Z</updated>
+    <updated>2020-12-22T08:59:10.400Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.steam-boom.xyz"/>
     <link rel="self" href="https://blog.steam-boom.xyz/atom.xml"/>
@@ -22,7 +22,7 @@
 <p><img src="https://blog.steam-boom.xyz/post-images/1608624892459.png" alt="版本信息" loading="lazy">版本<br>
 <img src="https://blog.steam-boom.xyz/post-images/1608624921410.png" alt="软件界面" loading="lazy">软件界面</p>
 <h2 id="下载地址">下载地址</h2>
-<p><a href="https://blog.steam-boom.xyz/media/files/2020-12/fl.zip">单击我下载</a>  Power By Github</p>
+<p><a href="https://blog-1251216006.cos.ap-chengdu.myqcloud.com/files/FL%20Studio.zip">单击我下载</a>  Power By 腾讯云</p>
 ]]></content>
     </entry>
 </feed>
